@@ -122,7 +122,7 @@ export default function CheckoutPage() {
     try {
       response = await PortOne.requestPayment({
         storeId: 'store-e3781a77-ba23-4e18-a9df-bfbf7bb5b246',
-        channelKey: 'channel-key-bbc52eaf-11ba-49f2-9ba4-373217cd68a4',
+        channelKey: 'channel-key-532b7128-abc2-42fd-8f3e-1fa444eb7fc1',
         paymentId: `payment-${Date.now()}`,
         orderName,
         totalAmount: totalPrice,
